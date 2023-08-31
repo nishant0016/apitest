@@ -1,5 +1,4 @@
 const express = require("express");
-const axios = require("axios");
 let requests=[];
 const app = express();
 app.use(express.json());
